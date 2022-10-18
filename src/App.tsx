@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
+import Book from "./components/book/Book";
 
 function App() {
   return (
     <div className="App">
-      <h1>Beans</h1>
+      <Book />
     </div>
   );
 }
